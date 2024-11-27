@@ -59,7 +59,11 @@ function handlerSubmit(event) {
 function fetchError() {
   iziToast.error({
     position: "topRight",
-    title: 'Error',
+    backgroundColor: `#ef4040`,
+    messageColor: `#fafafb`,
+    titleColor: `#fafafb`,
+    iconColor: `#fafafb`,
+    title: 'Error', 
     message:
       'Sorry, there are no images matching your search query. Please try again!',
   });

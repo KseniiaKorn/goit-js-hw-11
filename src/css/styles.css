@@ -59,7 +59,7 @@ a {
   border: 1px solid #808080;
   border-radius: 4px;
   margin-right: 8px;
-  margin-bottom: 30px;
+  margin-bottom: 32px;
   font-family: inherit;
   cursor: pointer;
 }
@@ -131,6 +131,14 @@ a {
   width: 432px !important;
   min-height: 88px;
   font-size: 16px;
+  background: #ef4040;
+  border-bottom: 2px solid #ffbebe;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #fafafb;
 }
 
 .loader {
